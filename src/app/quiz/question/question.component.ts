@@ -8,6 +8,7 @@ import { QuizService } from '../../shared/services/quiz.service';
   styleUrls: ['./question.component.scss']
 })
 export class QuestionComponent implements OnInit {
+  startDate: Date = new Date();
   idQuiz!: number;
 
   quizContent: any[] = [];

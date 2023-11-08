@@ -14,6 +14,10 @@ import { AnswerComponent } from './quiz/answer/answer.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
+import { TimerPipe } from './shared/pipes/timer/timer.pipe';
+import { AbbreviatePipe } from './shared/pipes/abbreviate/abbreviate.pipe';
+import { HighlightDirective } from './shared/directives/highlight.directive';
+import { PrefixeLetterDirective } from './shared/directives/prefixeLetter/prefixe-letter.directive';
 import { FilterPipe } from './shared/filter.pipe';
 
 @NgModule({
@@ -28,6 +32,10 @@ import { FilterPipe } from './shared/filter.pipe';
     AnswerComponent,
     LoginComponent,
     RegisterComponent,
+    TimerPipe,
+    AbbreviatePipe,
+    HighlightDirective,
+    PrefixeLetterDirective
     FilterPipe
   ],
   imports: [
