@@ -2,7 +2,13 @@
   "quiz": [
     {
       "id": 1,
-      "quizLabel": "L'aviation et vous..."
+      "quizLabel": "L'aviation et vous...",
+      "language": "FR"
+    },
+    {
+      "id": 2,
+      "quizLabel": "Quiz about Handball",
+      "language" : "EN"
     }
   ],
   "questions": [
@@ -55,6 +61,56 @@
       "id": 10,
       "idQuiz": 1,
       "questionLabel": "Quelle est la vitesse maximale atteinte par un avion de ligne typique en croisière ?"
+    },
+    {
+      "id": 11,
+      "idQuiz": 2,
+      "questionLabel": "What is the standard team size in handball?"
+    },
+    {
+      "id": 12,
+      "idQuiz": 2,
+      "questionLabel": "What is the duration of a standard handball match?"
+    },
+    {
+      "id": 13,
+      "idQuiz": 2,
+      "questionLabel": "Which country is considered the birthplace of modern handball?"
+    },
+    {
+      "id": 14,
+      "idQuiz": 2,
+      "questionLabel": "How many steps can a player take without dribbling?"
+    },
+    {
+      "id": 15,
+      "idQuiz": 2,
+      "questionLabel": "What is the penalty for a major foul?"
+    },
+    {
+      "id": 16,
+      "idQuiz": 2,
+      "questionLabel": "Which of these is a famous handball tournament?"
+    },
+    {
+      "id": 17,
+      "idQuiz": 2,
+      "questionLabel": "What is the maximum width of a handball goal?"
+    },
+    {
+      "id": 18,
+      "idQuiz": 2,
+      "questionLabel": "Which position is primarily responsible for scoring?"
+    },
+    {
+      "id": 19,
+      "idQuiz": 2,
+      "questionLabel": "How many timeouts can each team take in one game?"
+    },
+    {
+      "id": 20,
+      "idQuiz": 2,
+      "questionLabel": "What is the primary objective in handball?"
     }
   ],
   "answerLabels": [
@@ -297,6 +353,207 @@
       "questionId" : 10,
       "answerLabel": "1 200 km/h",
       "isCorrect": false
+    },
+    {
+      "questionID": 11,
+      "answerLabel": "5",
+      "isCorrect": false
+    },
+    {
+      "questionID": 11,
+      "answerLabel": "7",
+      "isCorrect": true
+    },
+
+    {
+      "questionID": 11,
+      "answerLabel": "9",
+      "isCorrect": false
+    },
+    {
+      "questionID": 11,
+      "answerLabel": "11",
+      "isCorrect": false
+    },
+    {
+      "questionID": 12,
+      "answerLabel": "30 minutes",
+      "isCorrect": false
+    },
+    {
+      "questionID": 12,
+      "answerLabel": "60 minutes",
+      "isCorrect": true
+    },
+    {
+      "questionID": 12,
+      "answerLabel": "45 minutes",
+      "isCorrect": false
+    },
+    {
+      "questionID": 12,
+      "answerLabel": "90 minutes",
+      "isCorrect": false
+    },
+    {
+      "questionID": 13,
+      "answerLabel": "Germany",
+      "isCorrect": true
+    },
+    {
+      "questionID": 13,
+      "answerLabel": "Sweden",
+      "isCorrect": false
+    },
+    {
+      "questionID": 13,
+      "answerLabel": "Denmark",
+      "isCorrect": false
+    },
+    {
+      "questionID": 13,
+      "answerLabel": "Norway",
+      "isCorrect": false
+    },
+    {
+      "questionID": 14,
+      "answerLabel": "1",
+      "isCorrect": false
+    },
+    {
+      "questionID":14,
+      "answerLabel":"3",
+      "isCorrect":true
+    },
+    {
+      "questionID":14,
+      "answerLabel":"5",
+      "isCorrect":false
+    },
+    {
+      "questionID":14,
+      "answerLabel":"Unlimited",
+      "isCorrect":false
+    },
+    {
+      "questionID":15,
+      "answerLabel":"Warning",
+      "isCorrect":false
+    },
+    {
+      "questionID":15,
+      "answerLabel":"Two-minute suspension",
+      "isCorrect":true
+    },
+    {
+      "questionID":15,
+      "answerLabel":"Direct red card",
+      "isCorrect":false
+    },
+    {
+      "questionID":15,
+      "answerLabel":"Point deduction",
+      "isCorrect":false
+    },
+    {
+      "questionID":16,
+      "answerLabel":"World Cup",
+      "isCorrect":false
+    },
+    {
+      "questionID":16,
+      "answerLabel":"EHF Champions League",
+      "isCorrect":true
+    },
+    {
+      "questionID":16,
+      "answerLabel":"La Liga",
+      "isCorrect":false
+    },
+    {
+      "questionID":16,
+      "answerLabel":"NBA Finals",
+      "isCorrect":false
+    },
+    {
+      "questionID":17,
+      "answerLabel":"2 meters",
+      "isCorrect":false
+    },
+    {
+      "questionID":17,
+      "answerLabel":"3 meters",
+      "isCorrect":true
+    },
+    {
+      "questionID":17,
+      "answerLabel":"4 meters",
+      "isCorrect":false
+    },
+    {
+      "questionID":17,
+      "answerLabel":"5 meters",
+      "isCorrect":false
+    },
+    {
+      "questionID":18,
+      "answerLabel":"Goalkeeper",
+      "isCorrect":false
+    },
+    {
+      "questionID":18,
+      "answerLabel":"Defender",
+      "isCorrect":false
+    },
+    {
+      "questionID":18,
+      "answerLabel":"Winger",
+      "isCorrect":false
+    },
+    {
+      "questionID":18,
+      "answerLabel":"Back",
+      "isCorrect":true
+    },
+    {
+      "questionID":19,
+      "answerLabel":"1",
+      "isCorrect":false
+    },
+    {
+      "questionID":19,
+      "answerLabel":"2",
+      "isCorrect":false
+    },
+    {
+      "questionID":19,
+      "answerLabel":"3",
+      "isCorrect":true
+    },
+    {
+      "questionID":19,
+      "answerLabel":"Unlimited",
+      "isCorrect":false
+    },
+    {
+      "questionID":20,
+      "answerLabel":"Dribbling past opponents",
+      "isCorrect":false
+    },
+    {
+      "questionID":20,
+      "answerLabel":"Scoring goals",
+      "isCorrect":true
+    },
+    {
+      "questionID":20,
+      "answerLabel":"Keeping possession",
+      "isCorrect":false
+    },
+    {
+      "questionID":20,
+      "answerLabel":"Defending",
+      "isCorrect":false
     }
   ],
   "users": [
