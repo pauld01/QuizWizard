@@ -10,6 +10,7 @@ export class QuizService {
   score = 0;
   isQuizFinished = false;
   playerName: string = '';
+  quizStartTime: Date = new Date();
 
   constructor(private http: HttpClient) { }
 

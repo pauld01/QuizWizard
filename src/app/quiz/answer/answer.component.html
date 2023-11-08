@@ -4,8 +4,10 @@
       [disabled]="isQuizFinished"
       (click)="addAnswer(answer?.answerLabel, questionId)"
       [class.answer_container--selected]="isAnswerSelected(answer?.answerLabel, questionId)"
+      appPrefixeLetter
+      [answerIndex]="j"
     >
-      <span>{{ getAnswerLetter(j) }}.</span> {{ answer?.answerLabel }}
+      {{ answer?.answerLabel }}
     </button>
   </li>
 </ul>

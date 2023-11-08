@@ -8,6 +8,7 @@ import { QuizService } from "../../shared/services/quiz.service";
 })
 export class QuestionComponent implements OnInit {
   quizContent: any[] = this.quizService.quizContent;
+  startDate: Date = new Date();
 
   constructor(private quizService: QuizService) { }
 
