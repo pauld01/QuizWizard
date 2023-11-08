@@ -8,15 +8,16 @@ import { Router } from "@angular/router";
   styleUrls: ['./result.component.scss']
 })
 export class ResultComponent implements OnInit {
-  score = 0;
-  scoreTotal = this.quizService.quizContent.length;
-  playerName = this.quizService.playerName;
+  score!: number;
+  scoreTotal!: number;
+  playerName!: string;
 
   constructor(private quizService: QuizService, private router: Router) { }
 
   ngOnInit(): void {
-    this.quizService.checkAnswers();
     this.score = this.quizService.score;
+    this.scoreTotal = this.quizService.quizContent.length;
+    this.playerName = this.quizService.playerName;
   }
 
   goToHome() {

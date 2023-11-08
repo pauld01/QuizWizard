@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from "@angular/router";
-import { AuthService } from "../auth/auth.service";
+import { Router } from '@angular/router';
+import { AuthService } from '../auth/auth.service';
+import { QuizService } from '../shared/services/quiz.service'; // Import QuizService
 
 @Component({
   selector: 'app-home',
@@ -10,24 +11,44 @@ import { AuthService } from "../auth/auth.service";
 export class HomeComponent implements OnInit {
   playerName = '';
   isPlayerNameConfirmed = false;
+  searchValue = '';
+  quizzes: any[] = []; // Property to store quizzes
 
-  constructor(private router: Router, private authService: AuthService) { }
+  constructor(
+    private router: Router, 
+    private authService: AuthService,
+    private quizService: QuizService // Inject QuizService
+  ) { }
 
   ngOnInit(): void {
-    //Nous verrons plus tard comment gérer cela avec des observables
     this.authService.isUserConnected();
     this.playerName = this.authService.user?.username || '';
+    
+    // Fetch the quizzes from the QuizService
+    this.quizService.getQuizzes().subscribe(data => {
+      this.quizzes = data;
+    },
+    error => {
+      console.error('Error fetching quizzes', error);
+    });
   }
 
   get isPlayerNameFill() {
-    return this.playerName.length < 1;
+    return this.playerName.trim().length === 0;
   }
 
-  navigateToQuiz() {
-    this.router.navigate(['/quiz', this.playerName]);
-  }
-
-  confirmPseudo() {
+  confirmPseudo(): void {
     this.isPlayerNameConfirmed = true;
+    this.quizService.playerName = this.playerName;
   }
+
+  navigateToQuizWithId(id: number): void {
+    this.router.navigate(['/quiz', id, this.playerName]);
+  }
+  handleInput(event: Event): void {
+    this.searchValue = (event.target as HTMLInputElement).value;
+  }
+  
+  
 }
+

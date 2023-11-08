@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from "@angular/router";
-import { QuizService } from "../shared/services/quiz.service";
+import { ActivatedRoute, Router } from '@angular/router';
+import { QuizService } from '../shared/services/quiz.service';
 
 @Component({
   selector: 'app-quiz',
@@ -8,8 +8,10 @@ import { QuizService } from "../shared/services/quiz.service";
   styleUrls: ['./quiz.component.scss']
 })
 export class QuizComponent implements OnInit {
-  isQuizFinished = this.quizService.isQuizFinished;
-  playerName = '';
+  isQuizFinished: boolean = false;
+  playerName: string = '';
+  quizContent: any[] = [];
+  idQuiz: number = 0;
 
   constructor(
     private quizService: QuizService,
@@ -21,10 +23,25 @@ export class QuizComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.quizService.playerName = params['playerName'];
       this.playerName = params['playerName'];
+      this.idQuiz = +params['idQuiz'];
+      this.fetchQuizContent();
     });
   }
 
-  goToResultPage() {
-    this.router.navigate(['/result']);
+  fetchQuizContent(): void {
+    this.quizService.getQuizContent(this.idQuiz).subscribe(
+      questions => {
+        this.quizContent = questions;
+      },
+      error => {
+        console.error('Error fetching quiz content', error);
+      }
+    );
+  }
+
+  goToResultPage(): void {
+    this.isQuizFinished = true;
+    this.quizService.checkAnswers();
+    this.router.navigate(['/result'], { queryParams: { playerName: this.quizService.playerName } });
   }
 }
