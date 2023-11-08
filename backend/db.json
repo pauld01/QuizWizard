@@ -115,241 +115,201 @@
   ],
   "answers": [
     {
-      "id": 1,
       "questionId" : 1,
       "label": "La poussée des moteurs",
       "isCorrect": false
     },
     {
-      "id": 2,
       "questionId" : 1,
       "label": "La traînée",
       "isCorrect": false
     },
     {
-      "id": 3,
       "questionId" : 1,
       "label": "La portance",
       "isCorrect": true
     },
     {
-      "id": 4,
       "questionId" : 1,
       "label": "La gravité",
       "isCorrect": false
     },
     {
-      "id": 5,
       "questionId" : 2,
       "label": "L'altimètre",
       "isCorrect": true
     },
     {
-      "id": 6,
       "questionId" : 2,
       "label": "Le variomètre",
       "isCorrect": false
     },
     {
-      "id": 7,
       "questionId" : 2,
       "label": "Le compas",
       "isCorrect": false
     },
     {
-      "id": 8,
       "questionId" : 2,
       "label": "Le GPS",
       "isCorrect": false
     },
     {
-      "id": 9,
       "questionId" : 3,
       "label": "Vitesse de croisière",
       "isCorrect": false
     },
     {
-      "id": 10,
       "questionId" : 3,
       "label": "Vitesse de décrochage (stall speed)",
       "isCorrect": true
     },
     {
-      "id": 11,
       "questionId" : 3,
       "label": "Vitesse supersonique",
       "isCorrect": false
     },
     {
-      "id": 12,
       "questionId" : 3,
       "label": "Vitesse de décollage",
       "isCorrect": false
     },
     {
-      "id": 13,
       "questionId" : 4,
       "label": "Le gouvernail de direction",
       "isCorrect": false
     },
     {
-      "id": 14,
       "questionId" : 4,
       "label": "Les ailes",
       "isCorrect": false
     },
     {
-      "id": 15,
       "questionId" : 4,
       "label": "Les moteurs",
       "isCorrect": true
     },
     {
-      "id": 16,
       "questionId" : 4,
       "label": "Le train d'atterrissage",
       "isCorrect": false
     },
     {
-      "id": 17,
       "questionId" : 5,
       "label": "Approche finale",
       "isCorrect": true
     },
     {
-      "id": 18,
       "questionId" : 5,
       "answerLabel": "Décollage",
       "isCorrect": false
     },
     {
-      "id": 19,
       "questionId" : 5,
       "answerLabel": "Virage en montée",
       "isCorrect": false
     },
     {
-      "id": 20,
       "questionId" : 5,
       "answerLabel": "Vol stationnaire",
       "isCorrect": false
     },
     {
-      "id": 21,
       "questionId" : 6,
       "answerLabel": "La chaleur excessive dans l\\'atmosphère",
       "isCorrect": false
     },
     {
-      "id": 22,
       "questionId" : 6,
       "answerLabel": "L'humidité à haute altitude",
       "isCorrect": true
     },
     {
-      "id": 23,
       "questionId" : 6,
       "answerLabel": "La foudre",
       "isCorrect": false
     },
     {
-      "id": 24,
       "questionId" : 6,
       "answerLabel": "La turbulence",
       "isCorrect": false
     },
     {
-      "id": 25,
       "questionId" : 7,
       "answerLabel": "Planeur",
       "isCorrect": false
     },
     {
-      "id": 26,
       "questionId" : 7,
       "answerLabel": "Hélicoptère",
       "isCorrect": false
     },
     {
-      "id": 27,
       "questionId" : 7,
       "answerLabel": "Avion de chasse",
       "isCorrect": false
     },
     {
-      "id": 28,
       "questionId" : 7,
       "answerLabel": "Avion de ligne",
       "isCorrect": true
     },
     {
-      "id": 29,
       "questionId" : 8,
       "answerLabel": "Accélérer l'avion",
       "isCorrect": false
     },
     {
-      "id": 30,
       "questionId" : 8,
       "answerLabel": "Réduire la portance",
       "isCorrect": true
     },
     {
-      "id": 31,
       "questionId" : 8,
       "answerLabel": "Contrôler la direction",
       "isCorrect": false
     },
     {
-      "id": 32,
       "questionId" : 8,
       "answerLabel": "Refroidir les moteurs",
       "isCorrect": false
     },
     {
-      "id": 33,
       "questionId" : 9,
       "answerLabel": "La couleur de la peinture",
       "isCorrect": false
     },
     {
-      "id": 34,
       "questionId" : 9,
       "answerLabel": "Le nombre de moteurs",
       "isCorrect": true
     },
     {
-      "id": 35,
       "questionId" : 9,
       "answerLabel": "La taille des ailes",
       "isCorrect": false
     },
     {
-      "id": 36,
       "questionId" : 9,
       "answerLabel": "Le nombre de passagers",
       "isCorrect": false
     },
     {
-      "id": 37,
       "questionId" : 10,
       "answerLabel": "100 km/h",
       "isCorrect": false
     },
     {
-      "id": 38,
       "questionId" : 10,
       "answerLabel": "500 km/h",
       "isCorrect": false
     },
     {
-      "id": 39,
       "questionId" : 10,
       "answerLabel": "900 km/h",
       "isCorrect": true
     },
     {
-      "id": 40,
       "questionId" : 10,
       "answerLabel": "1 200 km/h",
       "isCorrect": false
