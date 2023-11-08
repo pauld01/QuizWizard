@@ -12,18 +12,18 @@ export class HomeComponent implements OnInit {
   playerName = '';
   isPlayerNameConfirmed = false;
   searchValue = '';
-  quizzes: any[] = []; // Property to store quizzes
+  quizzes: any[] = [];
 
   constructor(
-    private router: Router, 
+    private router: Router,
     private authService: AuthService,
-    private quizService: QuizService // Inject QuizService
+    private quizService: QuizService
   ) { }
 
   ngOnInit(): void {
     this.authService.isUserConnected();
     this.playerName = this.authService.user?.username || '';
-    
+
     // Fetch the quizzes from the QuizService
     this.quizService.getQuizzes().subscribe(data => {
       this.quizzes = data;
@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit {
   handleInput(event: Event): void {
     this.searchValue = (event.target as HTMLInputElement).value;
   }
-  
-  
+
+
 }
 
