@@ -113,7 +113,7 @@
       "questionLabel": "What is the primary objective in handball?"
     }
   ],
-  "answerLabels": [
+  "answers": [
     {
       "id": 1,
       "questionId" : 1,
@@ -355,203 +355,203 @@
       "isCorrect": false
     },
     {
-      "questionID": 11,
+      "questionId": 11,
       "answerLabel": "5",
       "isCorrect": false
     },
     {
-      "questionID": 11,
+      "questionId": 11,
       "answerLabel": "7",
       "isCorrect": true
     },
 
     {
-      "questionID": 11,
+      "questionId": 11,
       "answerLabel": "9",
       "isCorrect": false
     },
     {
-      "questionID": 11,
+      "questionId": 11,
       "answerLabel": "11",
       "isCorrect": false
     },
     {
-      "questionID": 12,
+      "questionId": 12,
       "answerLabel": "30 minutes",
       "isCorrect": false
     },
     {
-      "questionID": 12,
+      "questionId": 12,
       "answerLabel": "60 minutes",
       "isCorrect": true
     },
     {
-      "questionID": 12,
+      "questionId": 12,
       "answerLabel": "45 minutes",
       "isCorrect": false
     },
     {
-      "questionID": 12,
+      "questionId": 12,
       "answerLabel": "90 minutes",
       "isCorrect": false
     },
     {
-      "questionID": 13,
+      "questionId": 13,
       "answerLabel": "Germany",
       "isCorrect": true
     },
     {
-      "questionID": 13,
+      "questionId": 13,
       "answerLabel": "Sweden",
       "isCorrect": false
     },
     {
-      "questionID": 13,
+      "questionId": 13,
       "answerLabel": "Denmark",
       "isCorrect": false
     },
     {
-      "questionID": 13,
+      "questionId": 13,
       "answerLabel": "Norway",
       "isCorrect": false
     },
     {
-      "questionID": 14,
+      "questionId": 14,
       "answerLabel": "1",
       "isCorrect": false
     },
     {
-      "questionID":14,
+      "questionId":14,
       "answerLabel":"3",
       "isCorrect":true
     },
     {
-      "questionID":14,
+      "questionId":14,
       "answerLabel":"5",
       "isCorrect":false
     },
     {
-      "questionID":14,
+      "questionId":14,
       "answerLabel":"Unlimited",
       "isCorrect":false
     },
     {
-      "questionID":15,
+      "questionId":15,
       "answerLabel":"Warning",
       "isCorrect":false
     },
     {
-      "questionID":15,
+      "questionId":15,
       "answerLabel":"Two-minute suspension",
       "isCorrect":true
     },
     {
-      "questionID":15,
+      "questionId":15,
       "answerLabel":"Direct red card",
       "isCorrect":false
     },
     {
-      "questionID":15,
+      "questionId":15,
       "answerLabel":"Point deduction",
       "isCorrect":false
     },
     {
-      "questionID":16,
+      "questionId":16,
       "answerLabel":"World Cup",
       "isCorrect":false
     },
     {
-      "questionID":16,
+      "questionId":16,
       "answerLabel":"EHF Champions League",
       "isCorrect":true
     },
     {
-      "questionID":16,
+      "questionId":16,
       "answerLabel":"La Liga",
       "isCorrect":false
     },
     {
-      "questionID":16,
+      "questionId":16,
       "answerLabel":"NBA Finals",
       "isCorrect":false
     },
     {
-      "questionID":17,
+      "questionId":17,
       "answerLabel":"2 meters",
       "isCorrect":false
     },
     {
-      "questionID":17,
+      "questionId":17,
       "answerLabel":"3 meters",
       "isCorrect":true
     },
     {
-      "questionID":17,
+      "questionId":17,
       "answerLabel":"4 meters",
       "isCorrect":false
     },
     {
-      "questionID":17,
+      "questionId":17,
       "answerLabel":"5 meters",
       "isCorrect":false
     },
     {
-      "questionID":18,
+      "questionId":18,
       "answerLabel":"Goalkeeper",
       "isCorrect":false
     },
     {
-      "questionID":18,
+      "questionId":18,
       "answerLabel":"Defender",
       "isCorrect":false
     },
     {
-      "questionID":18,
+      "questionId":18,
       "answerLabel":"Winger",
       "isCorrect":false
     },
     {
-      "questionID":18,
+      "questionId":18,
       "answerLabel":"Back",
       "isCorrect":true
     },
     {
-      "questionID":19,
+      "questionId":19,
       "answerLabel":"1",
       "isCorrect":false
     },
     {
-      "questionID":19,
+      "questionId":19,
       "answerLabel":"2",
       "isCorrect":false
     },
     {
-      "questionID":19,
+      "questionId":19,
       "answerLabel":"3",
       "isCorrect":true
     },
     {
-      "questionID":19,
+      "questionId":19,
       "answerLabel":"Unlimited",
       "isCorrect":false
     },
     {
-      "questionID":20,
+      "questionId":20,
       "answerLabel":"Dribbling past opponents",
       "isCorrect":false
     },
     {
-      "questionID":20,
+      "questionId":20,
       "answerLabel":"Scoring goals",
       "isCorrect":true
     },
     {
-      "questionID":20,
+      "questionId":20,
       "answerLabel":"Keeping possession",
       "isCorrect":false
     },
     {
-      "questionID":20,
+      "questionId":20,
       "answerLabel":"Defending",
       "isCorrect":false
     }
