@@ -11,6 +11,7 @@ import { QuizService } from '../shared/services/quiz.service'; // Import QuizSer
 export class HomeComponent implements OnInit {
   playerName = '';
   isPlayerNameConfirmed = false;
+  searchValue = '';
   quizzes: any[] = []; // Property to store quizzes
 
   constructor(
@@ -43,6 +44,9 @@ export class HomeComponent implements OnInit {
 
   navigateToQuizWithId(id: number): void {
     this.router.navigate(['/quiz', id, this.playerName]);
+  }
+  handleInput(event: Event): void {
+    this.searchValue = (event.target as HTMLInputElement).value;
   }
   
   

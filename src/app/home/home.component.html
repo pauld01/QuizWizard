@@ -11,10 +11,12 @@
     </button>
   </form>
 
+  <!-- Search bar for language -->
+  <input type="text" (input)="handleInput($event)" placeholder="Search by language">
   <!-- List of quizzes -->
   <div *ngIf="quizzes.length > 0; else noQuizzesTemplate">
     <ul class="quizzes-list">
-      <li *ngFor="let quiz of quizzes" class="quiz-item">
+      <li *ngFor="let quiz of quizzes | filter:searchValue:'language'" class="quiz-item">
         <!-- Button to start a specific quiz with the quiz label -->
         <button (click)="navigateToQuizWithId(quiz.id)" class="btn--outline" [disabled]="!isPlayerNameConfirmed">
           {{ quiz.quizLabel }}
