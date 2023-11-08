@@ -116,87 +116,87 @@
   "answers": [
     {
       "questionId" : 1,
-      "label": "La poussée des moteurs",
+      "answerLabel": "La poussée des moteurs",
       "isCorrect": false
     },
     {
       "questionId" : 1,
-      "label": "La traînée",
+      "answerLabel": "La traînée",
       "isCorrect": false
     },
     {
       "questionId" : 1,
-      "label": "La portance",
+      "answerLabel": "La portance",
       "isCorrect": true
     },
     {
       "questionId" : 1,
-      "label": "La gravité",
+      "answerLabel": "La gravité",
       "isCorrect": false
     },
     {
       "questionId" : 2,
-      "label": "L'altimètre",
+      "answerLabel": "L'altimètre",
       "isCorrect": true
     },
     {
       "questionId" : 2,
-      "label": "Le variomètre",
+      "answerLabel": "Le variomètre",
       "isCorrect": false
     },
     {
       "questionId" : 2,
-      "label": "Le compas",
+      "answerLabel": "Le compas",
       "isCorrect": false
     },
     {
       "questionId" : 2,
-      "label": "Le GPS",
+      "answerLabel": "Le GPS",
       "isCorrect": false
     },
     {
       "questionId" : 3,
-      "label": "Vitesse de croisière",
+      "answerLabel": "Vitesse de croisière",
       "isCorrect": false
     },
     {
       "questionId" : 3,
-      "label": "Vitesse de décrochage (stall speed)",
+      "answerLabel": "Vitesse de décrochage (stall speed)",
       "isCorrect": true
     },
     {
       "questionId" : 3,
-      "label": "Vitesse supersonique",
+      "answerLabel": "Vitesse supersonique",
       "isCorrect": false
     },
     {
       "questionId" : 3,
-      "label": "Vitesse de décollage",
+      "answerLabel": "Vitesse de décollage",
       "isCorrect": false
     },
     {
       "questionId" : 4,
-      "label": "Le gouvernail de direction",
+      "answerLabel": "Le gouvernail de direction",
       "isCorrect": false
     },
     {
       "questionId" : 4,
-      "label": "Les ailes",
+      "answerLabel": "Les ailes",
       "isCorrect": false
     },
     {
       "questionId" : 4,
-      "label": "Les moteurs",
+      "answerLabel": "Les moteurs",
       "isCorrect": true
     },
     {
       "questionId" : 4,
-      "label": "Le train d'atterrissage",
+      "answerLabel": "Le train d'atterrissage",
       "isCorrect": false
     },
     {
       "questionId" : 5,
-      "label": "Approche finale",
+      "answerLabel": "Approche finale",
       "isCorrect": true
     },
     {
