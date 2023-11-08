@@ -12,10 +12,6 @@ const routes: Routes = [
     component : HomeComponent
   },
   {
-    path: 'quiz/:playerName',
-    component : QuizComponent
-  },
-  {
     path: 'result',
     component : ResultComponent
   },
@@ -26,6 +22,10 @@ const routes: Routes = [
   {
     path: 'register',
     component: RegisterComponent
+  },
+  {
+      path: 'quiz/:idQuiz/:playerName',
+      component: QuizComponent
   }
 ];
 

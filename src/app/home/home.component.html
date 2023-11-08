@@ -1,14 +1,31 @@
 <section class="home">
   <h2 class="home_title">Bienvenu sur ce quiz</h2>
   <p class="home_presentation">Ce quiz a pour but éducatif</p>
-  <form action="" class="home_form" *ngIf="!playerName.length || !isPlayerNameConfirmed">
+  
+  <!-- Form for player name -->
+  <form *ngIf="!isPlayerNameConfirmed" class="home_form" (ngSubmit)="confirmPseudo()">
     <label for="name">Pseudo</label>
     <input type="text" id="name" name="name" placeholder="Entrez un pseudo" [(ngModel)]="playerName" required>
-    <button class="btn--icon" (click)="confirmPseudo()">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
-      </svg>
+    <button type="submit" class="btn--icon">
+      <!-- SVG for button icon -->
     </button>
   </form>
-  <button class="home_quiz-btn btn--outline" (click)="navigateToQuiz()" [disabled]="isPlayerNameFill">Démarrer</button>
+
+  <!-- List of quizzes -->
+  <div *ngIf="quizzes.length > 0; else noQuizzesTemplate">
+    <ul class="quizzes-list">
+      <li *ngFor="let quiz of quizzes" class="quiz-item">
+        <!-- Button to start a specific quiz with the quiz label -->
+        <button (click)="navigateToQuizWithId(quiz.id)" class="btn--outline" [disabled]="!isPlayerNameConfirmed">
+          {{ quiz.quizLabel }}
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Template to show when there are no quizzes available -->
+  <ng-template #noQuizzesTemplate>
+    <p>Aucun quiz disponible pour le moment.</p>
+  </ng-template>
+
 </section>
