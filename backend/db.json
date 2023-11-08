@@ -8,7 +8,7 @@
     {
       "id": 2,
       "quizLabel": "Quiz about Handball",
-      "language" : "EN"
+      "language": "EN"
     }
   ],
   "questions": [
@@ -115,202 +115,202 @@
   ],
   "answers": [
     {
-      "questionId" : 1,
+      "questionId": 1,
       "answerLabel": "La poussée des moteurs",
       "isCorrect": false
     },
     {
-      "questionId" : 1,
+      "questionId": 1,
       "answerLabel": "La traînée",
       "isCorrect": false
     },
     {
-      "questionId" : 1,
+      "questionId": 1,
       "answerLabel": "La portance",
       "isCorrect": true
     },
     {
-      "questionId" : 1,
+      "questionId": 1,
       "answerLabel": "La gravité",
       "isCorrect": false
     },
     {
-      "questionId" : 2,
+      "questionId": 2,
       "answerLabel": "L'altimètre",
       "isCorrect": true
     },
     {
-      "questionId" : 2,
+      "questionId": 2,
       "answerLabel": "Le variomètre",
       "isCorrect": false
     },
     {
-      "questionId" : 2,
+      "questionId": 2,
       "answerLabel": "Le compas",
       "isCorrect": false
     },
     {
-      "questionId" : 2,
+      "questionId": 2,
       "answerLabel": "Le GPS",
       "isCorrect": false
     },
     {
-      "questionId" : 3,
+      "questionId": 3,
       "answerLabel": "Vitesse de croisière",
       "isCorrect": false
     },
     {
-      "questionId" : 3,
+      "questionId": 3,
       "answerLabel": "Vitesse de décrochage (stall speed)",
       "isCorrect": true
     },
     {
-      "questionId" : 3,
+      "questionId": 3,
       "answerLabel": "Vitesse supersonique",
       "isCorrect": false
     },
     {
-      "questionId" : 3,
+      "questionId": 3,
       "answerLabel": "Vitesse de décollage",
       "isCorrect": false
     },
     {
-      "questionId" : 4,
+      "questionId": 4,
       "answerLabel": "Le gouvernail de direction",
       "isCorrect": false
     },
     {
-      "questionId" : 4,
+      "questionId": 4,
       "answerLabel": "Les ailes",
       "isCorrect": false
     },
     {
-      "questionId" : 4,
+      "questionId": 4,
       "answerLabel": "Les moteurs",
       "isCorrect": true
     },
     {
-      "questionId" : 4,
+      "questionId": 4,
       "answerLabel": "Le train d'atterrissage",
       "isCorrect": false
     },
     {
-      "questionId" : 5,
+      "questionId": 5,
       "answerLabel": "Approche finale",
       "isCorrect": true
     },
     {
-      "questionId" : 5,
+      "questionId": 5,
       "answerLabel": "Décollage",
       "isCorrect": false
     },
     {
-      "questionId" : 5,
+      "questionId": 5,
       "answerLabel": "Virage en montée",
       "isCorrect": false
     },
     {
-      "questionId" : 5,
+      "questionId": 5,
       "answerLabel": "Vol stationnaire",
       "isCorrect": false
     },
     {
-      "questionId" : 6,
+      "questionId": 6,
       "answerLabel": "La chaleur excessive dans l\\'atmosphère",
       "isCorrect": false
     },
     {
-      "questionId" : 6,
+      "questionId": 6,
       "answerLabel": "L'humidité à haute altitude",
       "isCorrect": true
     },
     {
-      "questionId" : 6,
+      "questionId": 6,
       "answerLabel": "La foudre",
       "isCorrect": false
     },
     {
-      "questionId" : 6,
+      "questionId": 6,
       "answerLabel": "La turbulence",
       "isCorrect": false
     },
     {
-      "questionId" : 7,
+      "questionId": 7,
       "answerLabel": "Planeur",
       "isCorrect": false
     },
     {
-      "questionId" : 7,
+      "questionId": 7,
       "answerLabel": "Hélicoptère",
       "isCorrect": false
     },
     {
-      "questionId" : 7,
+      "questionId": 7,
       "answerLabel": "Avion de chasse",
       "isCorrect": false
     },
     {
-      "questionId" : 7,
+      "questionId": 7,
       "answerLabel": "Avion de ligne",
       "isCorrect": true
     },
     {
-      "questionId" : 8,
+      "questionId": 8,
       "answerLabel": "Accélérer l'avion",
       "isCorrect": false
     },
     {
-      "questionId" : 8,
+      "questionId": 8,
       "answerLabel": "Réduire la portance",
       "isCorrect": true
     },
     {
-      "questionId" : 8,
+      "questionId": 8,
       "answerLabel": "Contrôler la direction",
       "isCorrect": false
     },
     {
-      "questionId" : 8,
+      "questionId": 8,
       "answerLabel": "Refroidir les moteurs",
       "isCorrect": false
     },
     {
-      "questionId" : 9,
+      "questionId": 9,
       "answerLabel": "La couleur de la peinture",
       "isCorrect": false
     },
     {
-      "questionId" : 9,
+      "questionId": 9,
       "answerLabel": "Le nombre de moteurs",
       "isCorrect": true
     },
     {
-      "questionId" : 9,
+      "questionId": 9,
       "answerLabel": "La taille des ailes",
       "isCorrect": false
     },
     {
-      "questionId" : 9,
+      "questionId": 9,
       "answerLabel": "Le nombre de passagers",
       "isCorrect": false
     },
     {
-      "questionId" : 10,
+      "questionId": 10,
       "answerLabel": "100 km/h",
       "isCorrect": false
     },
     {
-      "questionId" : 10,
+      "questionId": 10,
       "answerLabel": "500 km/h",
       "isCorrect": false
     },
     {
-      "questionId" : 10,
+      "questionId": 10,
       "answerLabel": "900 km/h",
       "isCorrect": true
     },
     {
-      "questionId" : 10,
+      "questionId": 10,
       "answerLabel": "1 200 km/h",
       "isCorrect": false
     },
@@ -324,7 +324,6 @@
       "answerLabel": "7",
       "isCorrect": true
     },
-
     {
       "questionId": 11,
       "answerLabel": "9",
@@ -381,139 +380,139 @@
       "isCorrect": false
     },
     {
-      "questionId":14,
-      "answerLabel":"3",
-      "isCorrect":true
+      "questionId": 14,
+      "answerLabel": "3",
+      "isCorrect": true
     },
     {
-      "questionId":14,
-      "answerLabel":"5",
-      "isCorrect":false
+      "questionId": 14,
+      "answerLabel": "5",
+      "isCorrect": false
     },
     {
-      "questionId":14,
-      "answerLabel":"Unlimited",
-      "isCorrect":false
+      "questionId": 14,
+      "answerLabel": "Unlimited",
+      "isCorrect": false
     },
     {
-      "questionId":15,
-      "answerLabel":"Warning",
-      "isCorrect":false
+      "questionId": 15,
+      "answerLabel": "Warning",
+      "isCorrect": false
     },
     {
-      "questionId":15,
-      "answerLabel":"Two-minute suspension",
-      "isCorrect":true
+      "questionId": 15,
+      "answerLabel": "Two-minute suspension",
+      "isCorrect": true
     },
     {
-      "questionId":15,
-      "answerLabel":"Direct red card",
-      "isCorrect":false
+      "questionId": 15,
+      "answerLabel": "Direct red card",
+      "isCorrect": false
     },
     {
-      "questionId":15,
-      "answerLabel":"Point deduction",
-      "isCorrect":false
+      "questionId": 15,
+      "answerLabel": "Point deduction",
+      "isCorrect": false
     },
     {
-      "questionId":16,
-      "answerLabel":"World Cup",
-      "isCorrect":false
+      "questionId": 16,
+      "answerLabel": "World Cup",
+      "isCorrect": false
     },
     {
-      "questionId":16,
-      "answerLabel":"EHF Champions League",
-      "isCorrect":true
+      "questionId": 16,
+      "answerLabel": "EHF Champions League",
+      "isCorrect": true
     },
     {
-      "questionId":16,
-      "answerLabel":"La Liga",
-      "isCorrect":false
+      "questionId": 16,
+      "answerLabel": "La Liga",
+      "isCorrect": false
     },
     {
-      "questionId":16,
-      "answerLabel":"NBA Finals",
-      "isCorrect":false
+      "questionId": 16,
+      "answerLabel": "NBA Finals",
+      "isCorrect": false
     },
     {
-      "questionId":17,
-      "answerLabel":"2 meters",
-      "isCorrect":false
+      "questionId": 17,
+      "answerLabel": "2 meters",
+      "isCorrect": false
     },
     {
-      "questionId":17,
-      "answerLabel":"3 meters",
-      "isCorrect":true
+      "questionId": 17,
+      "answerLabel": "3 meters",
+      "isCorrect": true
     },
     {
-      "questionId":17,
-      "answerLabel":"4 meters",
-      "isCorrect":false
+      "questionId": 17,
+      "answerLabel": "4 meters",
+      "isCorrect": false
     },
     {
-      "questionId":17,
-      "answerLabel":"5 meters",
-      "isCorrect":false
+      "questionId": 17,
+      "answerLabel": "5 meters",
+      "isCorrect": false
     },
     {
-      "questionId":18,
-      "answerLabel":"Goalkeeper",
-      "isCorrect":false
+      "questionId": 18,
+      "answerLabel": "Goalkeeper",
+      "isCorrect": false
     },
     {
-      "questionId":18,
-      "answerLabel":"Defender",
-      "isCorrect":false
+      "questionId": 18,
+      "answerLabel": "Defender",
+      "isCorrect": false
     },
     {
-      "questionId":18,
-      "answerLabel":"Winger",
-      "isCorrect":false
+      "questionId": 18,
+      "answerLabel": "Winger",
+      "isCorrect": false
     },
     {
-      "questionId":18,
-      "answerLabel":"Back",
-      "isCorrect":true
+      "questionId": 18,
+      "answerLabel": "Back",
+      "isCorrect": true
     },
     {
-      "questionId":19,
-      "answerLabel":"1",
-      "isCorrect":false
+      "questionId": 19,
+      "answerLabel": "1",
+      "isCorrect": false
     },
     {
-      "questionId":19,
-      "answerLabel":"2",
-      "isCorrect":false
+      "questionId": 19,
+      "answerLabel": "2",
+      "isCorrect": false
     },
     {
-      "questionId":19,
-      "answerLabel":"3",
-      "isCorrect":true
+      "questionId": 19,
+      "answerLabel": "3",
+      "isCorrect": true
     },
     {
-      "questionId":19,
-      "answerLabel":"Unlimited",
-      "isCorrect":false
+      "questionId": 19,
+      "answerLabel": "Unlimited",
+      "isCorrect": false
     },
     {
-      "questionId":20,
-      "answerLabel":"Dribbling past opponents",
-      "isCorrect":false
+      "questionId": 20,
+      "answerLabel": "Dribbling past opponents",
+      "isCorrect": false
     },
     {
-      "questionId":20,
-      "answerLabel":"Scoring goals",
-      "isCorrect":true
+      "questionId": 20,
+      "answerLabel": "Scoring goals",
+      "isCorrect": true
     },
     {
-      "questionId":20,
-      "answerLabel":"Keeping possession",
-      "isCorrect":false
+      "questionId": 20,
+      "answerLabel": "Keeping possession",
+      "isCorrect": false
     },
     {
-      "questionId":20,
-      "answerLabel":"Defending",
-      "isCorrect":false
+      "questionId": 20,
+      "answerLabel": "Defending",
+      "isCorrect": false
     }
   ],
   "users": [
@@ -526,6 +525,21 @@
       "id": 2,
       "username": "user",
       "password": "user"
+    },
+    {
+      "username": "A",
+      "password": "azerty",
+      "id": 3
+    },
+    {
+      "username": "b",
+      "password": "azerty",
+      "id": 4
+    },
+    {
+      "username": "a",
+      "password": "azerty",
+      "id": 5
     }
   ]
 }

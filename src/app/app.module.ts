@@ -18,6 +18,7 @@ import { TimerPipe } from './shared/pipes/timer/timer.pipe';
 import { AbbreviatePipe } from './shared/pipes/abbreviate/abbreviate.pipe';
 import { HighlightDirective } from './shared/directives/highlight.directive';
 import { PrefixeLetterDirective } from './shared/directives/prefixeLetter/prefixe-letter.directive';
+import { FilterPipe } from './shared/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { PrefixeLetterDirective } from './shared/directives/prefixeLetter/prefix
     AbbreviatePipe,
     HighlightDirective,
     PrefixeLetterDirective
+    FilterPipe
   ],
   imports: [
     BrowserModule,
