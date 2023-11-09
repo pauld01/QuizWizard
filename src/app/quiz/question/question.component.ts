@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { QuizService } from '../../shared/services/quiz.service';
+import { QuizService } from '../../shared/services/quiz/quiz.service';
 
 @Component({
   selector: 'app-question',
@@ -25,7 +25,7 @@ export class QuestionComponent implements OnInit {
       this.quizService.playerName = params['playerName'];
       this.playerName = params['playerName'];
       this.idQuiz = +params['idQuiz'];
-  
+
       // Fetch the quiz content
       this.quizService.getQuizContent(this.idQuiz).subscribe(
         questions => {

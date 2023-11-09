@@ -1,7 +1,7 @@
-<input type="text" (input)="handleInput($event)" placeholder="Search by language">
+<input type="text" name="searchTerm" [(ngModel)]="searchValue" (ngModelChange)="filterCategories()" placeholder="Search by language" />
+<button type="button" (click)="resetFilter()">Reset</button>
 
 <div class="flex">
-
   <div *ngFor="let category of categories | filter:searchValue:'language'" (click)="navigateToQuizWithId(category.id)" class="card">
     <div class="label">
       <div class="label-title">{{ category.label }}</div>
