@@ -111,6 +111,56 @@
       "id": 20,
       "idQuiz": 2,
       "questionLabel": "What is the primary objective in handball?"
+    },
+    {
+      "id": 21,
+      "idQuiz": 3,
+      "questionLabel": "Wie heißt die neue Generation des iPhones?"
+    },
+    {
+      "id": 22,
+      "idQuiz": 3,
+      "questionLabel": "Wie heißt der Sprachassistent von Apple?"
+    },
+    {
+      "id": 23,
+      "idQuiz": 3,
+      "questionLabel": "Wie heißt die Navi-App?"
+    },
+    {
+      "id": 24,
+      "idQuiz": 3,
+      "questionLabel": "Wie heißt der neue Apple-Chip?"
+    },
+    {
+      "id": 25,
+      "idQuiz": 3,
+      "questionLabel": "Welche HomePod-Version existiert wirklich?"
+    },
+    {
+      "id": 26,
+      "idQuiz": 3,
+      "questionLabel": "Welches Apple-Produkt ist CO2 neutral?"
+    },
+    {
+      "id": 27,
+      "idQuiz": 3,
+      "questionLabel": "Mit welchem Anschluss werden die AirPods Pro (2. Generation) produziert?"
+    },
+    {
+      "id": 28,
+      "idQuiz": 3,
+      "questionLabel": "Wie heißt die neue Spielplattform von Apple?"
+    },
+    {
+      "id": 29,
+      "idQuiz": 3,
+      "questionLabel": "In welcher neuen Farbe ist der iMac M3 bestellbar?"
+    },
+    {
+      "id": 30,
+      "idQuiz": 3,
+      "questionLabel": "Welche iPad-Variante existiert nicht?"
     }
   ],
   "answers": [
@@ -513,6 +563,206 @@
       "questionId": 20,
       "answerLabel": "Defending",
       "isCorrect": false
+    },
+    {
+      "questionId":21,
+      "answerLabel":"iPhone 13",
+      "isCorrect":false
+    },
+    {
+      "questionId":21,
+      "answerLabel":"iPhone 14",
+      "isCorrect":false
+    },
+    {
+      "questionId":21,
+      "answerLabel":"iPhone 15",
+      "isCorrect":true
+    },
+    {
+      "questionId":21,
+      "answerLabel":"iPhone16",
+      "isCorrect":false
+    },
+    {
+      "questionId":22,
+      "answerLabel":"Alexa",
+      "isCorrect":false
+    },
+    {
+      "questionId":22,
+      "answerLabel":"Siri",
+      "isCorrect":true
+    },
+    {
+      "questionId":22,
+      "answerLabel":"IDA",
+      "isCorrect":false
+    },
+    {
+      "questionId":22,
+      "answerLabel":"iSafari",
+      "isCorrect":false
+    },
+    {
+      "questionId":23,
+      "answerLabel":"Karten",
+      "isCorrect":false
+    },
+    {
+      "questionId":23,
+      "answerLabel":"Maps",
+      "isCorrect":true
+    },
+    {
+      "questionId":23,
+      "answerLabel":"Waze",
+      "isCorrect":false
+    },
+    {
+      "questionId":23,
+      "answerLabel":"iMapper",
+      "isCorrect":false
+    },
+    {
+      "questionId":24,
+      "answerLabel":"i3",
+      "isCorrect":false
+    },
+    {
+      "questionId":24,
+      "answerLabel":"C2",
+      "isCorrect":false
+    },
+    {
+      "questionId":24,
+      "answerLabel":"M4",
+      "isCorrect":false
+    },
+    {
+      "questionId":24,
+      "answerLabel":"M3",
+      "isCorrect":true
+    },
+    {
+      "questionId":25,
+      "answerLabel":"HomePod Mini",
+      "isCorrect":true
+    },
+    {
+      "questionId":25,
+      "answerLabel":"HomePod Maxi",
+      "isCorrect":false
+    },
+    {
+      "questionId":25,
+      "answerLabel":"HomePod Pro",
+      "isCorrect":false
+    },
+    {
+      "questionId":25,
+      "answerLabel":"HomePod Ultra",
+      "isCorrect":false
+    },
+    {
+      "questionId":26,
+      "answerLabel":"MacBook Air 15",
+      "isCorrect":false
+    },
+    {
+      "questionId":26,
+      "answerLabel":"MacBook Pro M3 Max",
+      "isCorrect":true
+    },
+    {
+      "questionId":26,
+      "answerLabel":"iMac M3",
+      "isCorrect":false
+    },
+    {
+      "questionId":26,
+      "answerLabel":"Apple Watch Serie 9",
+      "isCorrect":false
+    },
+    {
+      "questionId":27,
+      "answerLabel":"USB-A",
+      "isCorrect":false
+    },
+    {
+      "questionId":27,
+      "answerLabel":"Lightning",
+      "isCorrect":true
+    },
+    {
+      "questionId":27,
+      "answerLabel":"USB-C",
+      "isCorrect":false
+    },
+    {
+      "questionId":27,
+      "answerLabel":"Lightning 2",
+      "isCorrect":false
+    },
+    {
+      "questionId":28,
+      "answerLabel":"Apple iPlay",
+      "isCorrect":false
+    },
+    {
+      "questionId":28,
+      "answerLabel":"Apple ONE",
+      "isCorrect":false
+    },
+    {
+      "questionId":28,
+      "answerLabel":"Apple Arcade",
+      "isCorrect":true
+    },
+    {
+      "questionId":28,
+      "answerLabel":"Apple Joystick",
+      "isCorrect":false
+    },
+    {
+      "questionId":29,
+      "answerLabel":"Gelb",
+      "isCorrect":false
+    },
+    {
+      "questionId":29,
+      "answerLabel":"Rot",
+      "isCorrect":false
+    },
+    {
+      "questionId":29,
+      "answerLabel":"Grün",
+      "isCorrect":false
+    },
+    {
+      "questionId":29,
+      "answerLabel":"Violett",
+      "isCorrect":true
+    },
+    {
+      "questionId":30,
+      "answerLabel":"iPad Max",
+      "isCorrect":true
+    },
+    {
+      "questionId":30,
+      "answerLabel":"iPad Pro",
+      "isCorrect":false
+    },
+    {
+      "questionId":30,
+      "answerLabel":"iPad",
+      "isCorrect":false
+    },
+    {
+      "questionId":30,
+      "answerLabel":"iPad Air",
+      "isCorrect":false
     }
   ],
   "users": [
