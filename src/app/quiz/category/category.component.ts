@@ -10,15 +10,24 @@ import {CategoryService} from "../../shared/services/category/category.service";
   styleUrls: ['./category.component.scss']
 })
 export class CategoryComponent implements OnInit {
-  @Input() categories: any[] = [];
   @Input() playerName: string = '';
+  categories: any[] = [];
   searchValue: string = '';
   filteredCategories: any[] = [];
 
-  constructor(private router: Router) {}
+  constructor(
+    private router: Router,
+    private categoryService: CategoryService
+  ) { }
 
   ngOnInit() {
-    this.filteredCategories = this.categories;
+    this.categoryService.getCategories().subscribe(data => {
+        this.categories = data;
+        this.filteredCategories = data;
+      },
+      error => {
+        console.error('Error fetching quizzes', error);
+      });
   }
 
   ngOnChanges() {
@@ -30,26 +39,11 @@ export class CategoryComponent implements OnInit {
   //     (category) => category.language.toLowerCase().includes(this.searchValue.toLowerCase())
   //   ) : this.categories;
   // }
-  
+
     filterCategories() {
     this.filteredCategories = this.searchValue ? this.categories.filter(
       (category) => category.label.toLowerCase().includes(this.searchValue.toLowerCase())
     ) : this.categories;
-  }
-  searchValue = '';
-  categories: any[] = [];
-  constructor(
-    private router: Router,
-    private categoryService: CategoryService
-  ) { }
-
-  ngOnInit() {
-    this.categoryService.getCategories().subscribe(data => {
-      this.categories = data;
-    },
-    error => {
-      console.error('Error fetching quizzes', error);
-    });
   }
 
   navigateToQuizWithId(id: number): void {
