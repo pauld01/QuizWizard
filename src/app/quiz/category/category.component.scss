@@ -37,3 +37,18 @@ img{
     border-color: rgb(240, 240, 240);
     cursor:initial;
 }
+
+.search-bar{
+    margin-top: 20px !important;
+    display: flex;
+    margin: auto;
+    padding: 6px;
+    border-radius: 8px;
+    width: 210px;
+    background-color: rgb(240, 240, 240);
+
+    input{
+        margin-left: 6px;
+        background-color: rgb(240, 240, 240);
+    }
+}
