@@ -1,28 +1,45 @@
-import { Component, Input } from '@angular/core';
-import {Router} from "@angular/router";
-import {AuthService} from "../../auth/auth.service";
-import {QuizService} from "../../shared/services/quiz.service";
+import { Component, Input, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-category',
   templateUrl: './category.component.html',
   styleUrls: ['./category.component.scss']
 })
-export class CategoryComponent {
+export class CategoryComponent implements OnInit {
   @Input() categories: any[] = [];
   @Input() playerName: string = '';
+  searchValue: string = '';
+  filteredCategories: any[] = [];
 
-  searchValue = '';
+  constructor(private router: Router) {}
 
-  constructor(
-    private router: Router
-  ) { }
+  ngOnInit() {
+    this.filteredCategories = this.categories;
+  }
+
+  ngOnChanges() {
+    this.filterCategories();
+  }
+
+  // filterCategories() {
+  //   this.filteredCategories = this.searchValue ? this.categories.filter(
+  //     (category) => category.language.toLowerCase().includes(this.searchValue.toLowerCase())
+  //   ) : this.categories;
+  // }
+  
+    filterCategories() {
+    this.filteredCategories = this.searchValue ? this.categories.filter(
+      (category) => category.label.toLowerCase().includes(this.searchValue.toLowerCase())
+    ) : this.categories;
+  }
 
   navigateToQuizWithId(id: number): void {
     this.router.navigate(['/quiz', id, this.playerName]);
   }
-  handleInput(event: Event): void {
-    this.searchValue = (event.target as HTMLInputElement).value;
-  }
 
+  resetFilter() {
+    this.searchValue = '';
+    this.filteredCategories = this.categories;
+  }
 }
