@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { QuizService } from '../shared/services/quiz/quiz.service';
 
@@ -8,6 +8,7 @@ import { QuizService } from '../shared/services/quiz/quiz.service';
   styleUrls: ['./quiz.component.scss']
 })
 export class QuizComponent implements OnInit {
+  nameCategory: string = '';
   isQuizFinished: boolean = false;
   playerName: string = '';
   quizContent: any[] = [];
@@ -24,6 +25,7 @@ export class QuizComponent implements OnInit {
       this.quizService.playerName = params['playerName'];
       this.playerName = params['playerName'];
       this.idQuiz = +params['idQuiz'];
+      this.nameCategory = params['categoryLabel'];
       this.fetchQuizContent();
     });
   }

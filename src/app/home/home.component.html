@@ -2,7 +2,6 @@
   <h2 class="home_title">Bienvenue sur ce quiz</h2>
   <p class="home_presentation">Ce quiz a un but éducatif 😊</p>
 
-  <!-- Form for player name -->
   <form *ngIf="!isPlayerNameConfirmed" class="home_form" (ngSubmit)="confirmPseudo()">
     <label for="name">Pseudo</label>
     <input type="text" id="name" name="name" placeholder="Entrez un pseudo" [(ngModel)]="playerName" required>

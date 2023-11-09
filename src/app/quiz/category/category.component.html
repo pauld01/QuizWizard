@@ -4,7 +4,7 @@
 <div class="flex">
   <div
     *ngFor="let category of filteredCategories"
-    (click)="navigateToQuizWithId(category.id)"
+    (click)="navigateToQuizWithId(category.id, category.label)"
     class="max-w-sm rounded overflow-hidden shadow-lg"
   >
     <div class="px-6 py-4">

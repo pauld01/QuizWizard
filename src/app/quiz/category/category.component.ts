@@ -1,7 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
-import {AuthService} from "../../auth/auth.service";
-import {QuizService} from "../../shared/services/quiz/quiz.service";
 import {CategoryService} from "../../shared/services/category/category.service";
 
 @Component({
@@ -40,14 +38,14 @@ export class CategoryComponent implements OnInit {
   //   ) : this.categories;
   // }
 
-    filterCategories() {
+  filterCategories() {
     this.filteredCategories = this.searchValue ? this.categories.filter(
       (category) => category.label.toLowerCase().includes(this.searchValue.toLowerCase())
     ) : this.categories;
   }
 
-  navigateToQuizWithId(id: number): void {
-    this.router.navigate(['/quiz', id, this.playerName]);
+  navigateToQuizWithId(id: number, categoryLabel: string): void {
+    this.router.navigate(['/quiz', id, this.playerName], { queryParams: { categoryLabel }});
   }
 
   resetFilter() {
