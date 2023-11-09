@@ -17,7 +17,7 @@ import { RegisterComponent } from './auth/register/register.component';
 import { TimerPipe } from './shared/pipes/timer/timer.pipe';
 import { AbbreviatePipe } from './shared/pipes/abbreviate/abbreviate.pipe';
 import { PrefixeLetterDirective } from './shared/directives/prefixeLetter/prefixe-letter.directive';
-import { FilterPipe } from './shared/filter.pipe';
+import { FilterPipe } from './shared/pipes/filter.pipe';
 
 @NgModule({
   declarations: [
