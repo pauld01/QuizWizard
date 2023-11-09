@@ -14,53 +14,15 @@
   </form>
 
   <!-- AJOUTER FILTRES -->
-  <input *ngIf="isPlayerNameConfirmed" type="text" (input)="handleInput($event)" placeholder="Search by language">
-
-
 
   <div
     class="relative overflow-x-auto"
     *ngIf="quizzes.length > 0 && isPlayerNameConfirmed"
   >
-    <table class="w-full text-sm text-left text-gray-500">
-      <thead class="text-xs text-gray-700 uppercase bg-gray-50">
-        <tr>
-          <th scope="col" class="px-6 py-3">
-            Nom du quiz
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Nombre de questions
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Language
-          </th>
-          <th scope="col" class="px-6 py-3"> </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          class="bg-white border-b"
-          *ngFor="let quiz of quizzes | filter:searchValue:'language'"
-        >
-          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-            {{ quiz.quizLabel }}
-          </th>
-          <td class="px-6 py-4">
-            - <!-- TODO : add the count of questions -->
-          </td>
-          <td class="px-6 py-4">
-            <img src="assets/flags/EN.svg" *ngIf="quiz.language === 'EN'">
-            <img src="assets/flags/FR.svg" *ngIf="quiz.language === 'FR'">
-          </td>
-          <td
-            class="px-6 py-4"
-            (click)="navigateToQuizWithId(quiz.id)"
-          >
-            <a class="font-medium text-blue-600 hover:underline">Play</a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <app-category
+      [categories]="quizzes"
+      [playerName]="playerName"
+    ></app-category>
   </div>
 
 </section>

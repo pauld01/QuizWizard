@@ -1,14 +1,19 @@
 {
-  "quiz": [
+  "category": [
     {
       "id": 1,
-      "quizLabel": "L'aviation et vous...",
+      "label": "Aviation",
       "language": "FR"
     },
     {
       "id": 2,
-      "quizLabel": "Quiz about Handball",
+      "label": "Handball",
       "language": "EN"
+    },
+    {
+      "id": 3,
+      "label": "Apple",
+      "language": "DE"
     }
   ],
   "questions": [

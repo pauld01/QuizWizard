@@ -15,10 +15,10 @@ export class QuizService {
   quizStartTime: Date = new Date();
 
   constructor(private http: HttpClient) { }
-  
+
 
   getQuizzes(): Observable<any[]> {
-    return this.http.get<any[]>(this.apiUrl + '/quiz');
+    return this.http.get<any[]>(this.apiUrl + '/category');
   }
   checkAnswers(): number {
     this.score = 0;

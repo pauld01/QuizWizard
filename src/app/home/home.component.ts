@@ -42,13 +42,5 @@ export class HomeComponent implements OnInit {
     this.quizService.playerName = this.playerName;
   }
 
-  navigateToQuizWithId(id: number): void {
-    this.router.navigate(['/quiz', id, this.playerName]);
-  }
-  handleInput(event: Event): void {
-    this.searchValue = (event.target as HTMLInputElement).value;
-  }
-
-
 }
 
