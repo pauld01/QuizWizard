@@ -1,3 +1,8 @@
+# GROUPE MASTERES 2 DEV MANAGER FULL STACK
+PAUL DUPLESSIS
+NICOLAS FERREIRA
+VINCENT CORNEE
+
 # AngularQuiz
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7.
