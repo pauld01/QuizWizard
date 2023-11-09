@@ -3,16 +3,19 @@
     {
       "id": 1,
       "label": "Aviation",
+      "description": "Testez vos connaissances sur le secteur de l'aviation ! Prêts au decollage ?",
       "language": "FR"
     },
     {
       "id": 2,
       "label": "Handball",
+      "description": "Si le handball est votre sport de prédilection, ce quiz est fait pour vous !",
       "language": "EN"
     },
     {
       "id": 3,
       "label": "Apple",
+      "description": "Vous êtes amateur de technologie et faîtes de la veille ? Découvrez les dernières nouveautés d'Apple.",
       "language": "DE"
     }
   ],
