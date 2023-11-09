@@ -16,10 +16,10 @@ export class QuizService {
 
   constructor(private http: HttpClient) { }
 
-
   getQuizzes(): Observable<any[]> {
     return this.http.get<any[]>(this.apiUrl + '/category');
   }
+
   checkAnswers(): number {
     this.score = 0;
     for (let i = 0; i < this.playerAnswers.length; i++) {
@@ -46,19 +46,6 @@ export class QuizService {
     this.playerAnswers.push({questionId, answer});
   }
 
-  _getQuizContent() {
-    this.http.get('http://localhost:3000/questions').subscribe((questions: any) => {
-      for (const question of questions) {
-        this.http.get(`http://localhost:3000/answers?questionId=${question.id}`).subscribe((answers: any) => {
-          this.quizContent.push({
-              id: question.id,
-              question: question.questionLabel,
-              answers
-          });
-        });
-      }
-    });
-  }
   getQuizContent(id: number): Observable<any[]> {
     return this.http.get<any[]>(`${this.apiUrl}/questions?idQuiz=${id}`).pipe(
       switchMap((questions) => {
@@ -78,7 +65,6 @@ export class QuizService {
       })
     );
   }
-
 
   resetQuiz() {
     this.quizContent = [];
