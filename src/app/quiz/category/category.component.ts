@@ -10,8 +10,32 @@ import {CategoryService} from "../../shared/services/category/category.service";
   styleUrls: ['./category.component.scss']
 })
 export class CategoryComponent implements OnInit {
+  @Input() categories: any[] = [];
   @Input() playerName: string = '';
+  searchValue: string = '';
+  filteredCategories: any[] = [];
 
+  constructor(private router: Router) {}
+
+  ngOnInit() {
+    this.filteredCategories = this.categories;
+  }
+
+  ngOnChanges() {
+    this.filterCategories();
+  }
+
+  // filterCategories() {
+  //   this.filteredCategories = this.searchValue ? this.categories.filter(
+  //     (category) => category.language.toLowerCase().includes(this.searchValue.toLowerCase())
+  //   ) : this.categories;
+  // }
+  
+    filterCategories() {
+    this.filteredCategories = this.searchValue ? this.categories.filter(
+      (category) => category.label.toLowerCase().includes(this.searchValue.toLowerCase())
+    ) : this.categories;
+  }
   searchValue = '';
   categories: any[] = [];
   constructor(
@@ -31,8 +55,9 @@ export class CategoryComponent implements OnInit {
   navigateToQuizWithId(id: number): void {
     this.router.navigate(['/quiz', id, this.playerName]);
   }
-  handleInput(event: Event): void {
-    this.searchValue = (event.target as HTMLInputElement).value;
-  }
 
+  resetFilter() {
+    this.searchValue = '';
+    this.filteredCategories = this.categories;
+  }
 }
